@@ -12,7 +12,7 @@ const app = document.querySelector('.app'),
 
     send = document.querySelector('#send'),
     
-    OPENAI_API_KEY = "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",
+    OPENAI_API_KEY = process.env.API_KEY,
     url = "https://api.openai.com/v1/chat/completions";
 
 

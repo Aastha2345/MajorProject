@@ -153,6 +153,11 @@ main .div{
 main div:hover{
     transform: scale(0.998);
 }
+main .heading{
+    font-size: 3rem;
+    padding-bottom: 4%;
+    font-family: 'Times New Roman', Times, serif;
+}
 main .hints, .result div{
     display: flex;
     align-items: center;
