@@ -12,7 +12,7 @@ const app = document.querySelector('.app'),
 
     send = document.querySelector('#send'),
     
-    OPENAI_API_KEY = '${process.env.API_KEY}',
+    OPENAI_API_KEY= "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",
     url = "https://api.openai.com/v1/chat/completions";
 
 
@@ -90,8 +90,6 @@ const app = document.querySelector('.app'),
 
                 input.setAttribute('readonly', true);
                 send.setAttribute('disabled', true);
-                
-                
                 
                 const res = await fetch(url, options);
                 
