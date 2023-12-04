@@ -153,3 +153,8 @@ const app = document.querySelector('.app'),
 
         }, 13);
     }
+    document.onkeydown=function(){
+        if(window.event.keyCode=='13'){
+            getAnswer();
+        }
+    }
